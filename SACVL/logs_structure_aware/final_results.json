@@ -1,0 +1,34 @@
+{
+  "best_fix_rate": 0.8916967509025271,
+  "best_epoch": 108,
+  "test_metrics": {
+    "fix_rate": 0.8864468864468864,
+    "edit_recall": 0.8586956521739131,
+    "edit_precision": 0.9388794567061224,
+    "char_accuracy": 0.9831712212444033,
+    "structure_accuracy": 0.9893617021276596
+  },
+  "config": {
+    "data_file": "ppocr_resultFL_merged_with_noise.xlsx",
+    "max_len": 30,
+    "test_size": 0.2,
+    "val_size": 0.1,
+    "augment_ratio": 0.3,
+    "d_model": 256,
+    "n_heads": 8,
+    "n_layers": 4,
+    "dropout": 0.2,
+    "batch_size": 128,
+    "learning_rate": 0.0002,
+    "num_epochs": 150,
+    "warmup_epochs": 10,
+    "alpha_char": 1.0,
+    "alpha_edit": 2.5,
+    "alpha_structure": 0.5,
+    "early_stopping_patience": 30,
+    "early_stopping_min_delta": 0.001,
+    "device": "cuda",
+    "checkpoint_dir": "checkpoints_structure_aware",
+    "log_dir": "logs_structure_aware"
+  }
+}

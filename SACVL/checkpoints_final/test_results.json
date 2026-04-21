@@ -1,0 +1,16 @@
+{
+  "total_samples": 1608,
+  "corrected_samples": 1539,
+  "fix_rate": 0.957089552238806,
+  "char_accuracy": 0.993485342019544,
+  "levenshtein_similarity": 0.993485342019544,
+  "edits_needed": 671,
+  "edits_made": 538,
+  "correct_edits": 522,
+  "wrong_edits": 16,
+  "correct_keeps": 18950,
+  "edit_recall": 0.7779433681073026,
+  "edit_precision": 0.9702602230481467,
+  "edit_coverage": 0.8017883755588674,
+  "structure_accuracy": 0.9937348165196267
+}
